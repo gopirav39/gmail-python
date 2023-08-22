@@ -1,0 +1,21 @@
+[
+  {
+    "name": "from",
+    "condition": "in",
+    "value": "gopinath",
+    "type": "string"
+  },
+  {
+    "name": "subject",
+    "condition": "in",
+    "value": "Test",
+    "type": "string"
+  },
+  {
+    "name": "date_received",
+    "condition": "<",
+    "value": 2,
+    "type": "duration",
+    "duration_in": "days"
+  }
+]
